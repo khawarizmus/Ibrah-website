@@ -15,7 +15,7 @@
         <ArrowUpRightIcon class="w-6 h-6" />
       </span>
     </div>
-    <div class="fixed bottom-0 px-6 py-3 bg-black rounded-lg end-0">
+    <div class="fixed bottom-0 z-20 px-8 py-6 bg-black rounded-lg end-0">
       Ibrah © {{ new Date().getFullYear() }}
     </div>
   </footer>
