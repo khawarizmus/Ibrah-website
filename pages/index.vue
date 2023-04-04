@@ -13,22 +13,22 @@
     ></spline-viewer>
   </main>
   <section
-    class="grid h-screen grid-cols-3 grid-rows-2 px-6 text-white bg-black py-36"
+    class="flex flex-col grid-rows-2 px-6 text-white bg-black md:grid lg:h-screen md:grid-cols-2 lg:grid-cols-3 py-36"
   >
-    <div class="p-6">
-      <p class="text-5xl">
+    <div class="p-6 mb-12 md:col-span-2 lg:col-span-1">
+      <p class="text-4xl md:text-5xl">
         We are a nimble agency providing business and tech consultancy.
       </p>
     </div>
     <div
-      class="grid grid-cols-2 col-span-2 col-start-2 row-start-2 gap-3 p-6 text-5xl grid-row-4"
+      class="grid items-center grid-cols-2 col-span-2 row-start-2 gap-3 p-6 text-3xl md:text-4xl lg:text-5xl lg:col-start-2 grid-row-4"
     >
       <div>Business Strategy</div>
-      <div class="w-full rounded-md bg-zinc-950"></div>
-      <div class="w-full rounded-md bg-zinc-950"></div>
+      <div class="self-stretch w-full rounded-md bg-zinc-950"></div>
+      <div class="self-stretch w-full rounded-md bg-zinc-950"></div>
       <div>Business Auditing</div>
       <div>Tech Consulting</div>
-      <div class="w-full rounded-md bg-zinc-950"></div>
+      <div class="self-stretch w-full rounded-md bg-zinc-950"></div>
       <!-- <div class="w-full rounded-md bg-black-950"></div> -->
     </div>
   </section>
