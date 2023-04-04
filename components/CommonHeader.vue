@@ -6,7 +6,7 @@
     ]"
   >
     <div class="h-12 text-7xl">*</div>
-    <a class="text-xl" href="mailto:info@ibrah.consulting"
+    <a class="hidden text-xl sm:inline" href="mailto:info@ibrah.consulting"
       >info@ibrah.consulting</a
     >
   </nav>

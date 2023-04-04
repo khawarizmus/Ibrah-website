@@ -1,12 +1,17 @@
 <template>
   <footer
-    class="relative grid items-start grid-cols-3 gap-6 px-6 text-white bg-black py-36"
+    :class="[
+      'relative flex flex-col-reverse px-6 text-white bg-black py-36',
+      'md:grid md:items-start md:grid-cols-2 lg:grid-cols-3 md:gap-6',
+    ]"
   >
-    <div class="px-6">
-      <div class="mb-6 font-medium font-brand text-7xl">ʿIbrah Consulting.</div>
+    <div class="px-6 md:col-span-2 lg:col-span-1">
+      <div class="mb-6 text-5xl font-medium font-brand md:text-7xl">
+        ʿIbrah Consulting.
+      </div>
       <p class="text-3xl">Every end is a new beginning. Get in touch.</p>
     </div>
-    <div class="p-6 text-3xl">
+    <div class="p-6 text-2xl md:text-3xl">
       <p class="mb-3">Taman Melati, Kuala Lumpur, Malaysia.</p>
       <a
         target="_blank"
@@ -17,8 +22,10 @@
         <ArrowUpRightIcon class="w-6 h-6" />
       </a>
     </div>
-    <div class="p-6 text-3xl">
-      <a class="block mb-3 text-4xl" href="mailto:info@ibrah.consulting"
+    <div class="p-6 text-2xl md:text-3xl">
+      <a
+        class="block mb-3 text-3xl md:text-3xl lg:text-4xl"
+        href="mailto:info@ibrah.consulting"
         >info@ibrah.consulting</a
       >
       <a
