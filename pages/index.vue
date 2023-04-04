@@ -2,10 +2,16 @@
   <CommonHeader />
   <main :class="['bg-black text-white', 'relative w-full h-screen']">
     <div
-      class="absolute inset-0 z-10 flex flex-col items-start justify-center w-full h-screen p-24 text-center pointer-events-none"
+      class="absolute inset-0 z-10 flex flex-col items-start w-full h-screen p-6 mt-24 text-center pointer-events-none lg:mt-0 lg:justify-center md:p-24"
     >
-      <h1 class="font-medium font-brand text-[10rem] leading-snug">ʿIbrah</h1>
-      <p class="text-3xl tracking-widest">The past informs the future</p>
+      <h1
+        class="font-medium font-brand text-8xl md:text-9xl lg:text-[10rem] lg:leading-snug"
+      >
+        ʿIbrah
+      </h1>
+      <p class="text-xl tracking-widest md:text-2xl lg:text-3xl">
+        The past informs the future
+      </p>
     </div>
     <spline-viewer
       ref="viewer"
