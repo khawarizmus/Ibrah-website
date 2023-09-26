@@ -32,7 +32,7 @@
         target="_blank"
         href="https://web.whatsapp.com/send?phone=60146660099"
         class="block mb-2"
-        >+60 (14) 666 0099</a
+        >+60 (16) 524 2696</a
       >
       <a
         target="_blank"
